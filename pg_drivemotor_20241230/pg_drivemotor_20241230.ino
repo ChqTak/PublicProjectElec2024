@@ -26,7 +26,7 @@ void loop(){
   int currentDelay = slowMicros;
   for(; step < totalSteps; step++){
     rotateMotor(currentDelay);
-    currentDelay = currentDelay + 100;
+//    currentDelay = currentDelay + 100;
   }
 
   close();
